@@ -1,3 +1,5 @@
-from forms.form_login import App
+from forms.login.form_login import formularioLlogin
 
-App() 
+#from forms.master.form_master import MasterPanel
+
+formularioLlogin() 
