@@ -5,9 +5,9 @@ from sqlalchemy.orm import declarative_base
 Base = declarative_base()
 
 class Auth_Usuario(Base):
-    _tablaname_ ="auth_user"
+    __tablename__ ="auth_user"
     id = Column(Integer, primary_key=True, autoincrement=True)
-    
+     
     username = Column(String(150))
     password = Column(String(128))
 
